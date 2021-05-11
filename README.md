@@ -17,34 +17,34 @@ Tài khoản :
 base_url: http://localhost:3000/api/v1/
 
 users:
-  login: POST base_url/users/login
-  register: POST base_url/users/register
-  get All: GET base_url/users
-  get By Id: GET base_url/users/:id
-  get current user: GET base_url/users/getCurrentUser
-  count users: GET base_url/users/get/count
-  update info: PUT base_url/users/updateUser
-  change password: PUT base_url/users/changePassword
-  delete: DELETE base_url/users/:id
+  + login: POST base_url/users/login
+  + register: POST base_url/users/register
+  + get All: GET base_url/users
+  + get By Id: GET base_url/users/:id
+  + get current user: GET base_url/users/getCurrentUser
+  + count users: GET base_url/users/get/count
+  + update info: PUT base_url/users/updateUser
+  + change password: PUT base_url/users/changePassword
+  + delete: DELETE base_url/users/:id
 
 categories:
-  get All: GET base_url/categories
-  get By Id: GET base_url/categories/:id
-  create: POST base_url/categories
-  update: PUT base_url/categories/:id
-  delete: DELETE base_url/categories/:id
+  + get All: GET base_url/categories
+  + get By Id: GET base_url/categories/:id
+  + create: POST base_url/categories
+  + update: PUT base_url/categories/:id
+  + delete: DELETE base_url/categories/:id
   
 products: 
-  get All: GET base_url/products
-  get By Id: GET base_url/products/:id
-  create: POST base_url/products
-  update: PUT base_url/products/:id
-  delete: DELETE base_url/products/:id
-  count: GET base_url/products/get/count
+  + get All: GET base_url/products
+  + get By Id: GET base_url/products/:id
+  + create: POST base_url/products
+  + update: PUT base_url/products/:id
+  + delete: DELETE base_url/products/:id
+  + count: GET base_url/products/get/count
   
 orders:
-  get All: GET base_url/orders
-  get By Id: GET base_url/orders/:id
-  create: POST base_url/orders
-  update: PUT base_url/orders/:id
-  delete: DELETE base_url/orders/:id
+  + get All: GET base_url/orders
+  + get By Id: GET base_url/orders/:id
+  + create: POST base_url/orders
+  + update: PUT base_url/orders/:id
+  + delete: DELETE base_url/orders/:id
